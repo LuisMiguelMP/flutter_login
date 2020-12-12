@@ -24,7 +24,7 @@ class Auth with ChangeNotifier {
 
   final AuthCallback onLogin;
   final AuthCallback onSignup;
-  final RecoverCallback onRecoverPassword;
+  final AuthCallback onRecoverPassword;
 
   AuthMode _mode = AuthMode.Login;
 
