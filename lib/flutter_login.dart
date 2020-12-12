@@ -227,7 +227,7 @@ class FlutterLogin extends StatefulWidget {
   final AuthCallback onLogin;
 
   /// Called when the user hit the submit button when in recover password mode
-  final RecoverCallback onRecoverPassword;
+  final AuthCallback onRecoverPassword;
 
   /// The large text above the login [Card], usually the app or company name
   final String title;
