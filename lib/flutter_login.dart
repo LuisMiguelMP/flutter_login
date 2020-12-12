@@ -72,7 +72,7 @@ class _Header extends StatefulWidget {
     this.logoTag,
     this.title,
     this.titleTag,
-    this.height = 124.0,
+    this.height = 250.0,
     this.logoController,
     this.titleController,
     @required this.loginTheme,
